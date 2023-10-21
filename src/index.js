@@ -1,3 +1,3 @@
-import Document from './components/Index.jsx'
+import Document from './components/Document.jsx'
 
 export { Document }
