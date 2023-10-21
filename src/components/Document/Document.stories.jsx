@@ -1,9 +1,9 @@
-import { Button } from './Index';
+import Document from './Index'
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Components/Button',
-  component: Button,
+  title: 'Components/Document',
+  component: Document,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'centered',
@@ -14,7 +14,8 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' },
   },
-};
+}
+
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Primary = {
@@ -24,29 +25,3 @@ export const Primary = {
   },
 };
 
-export const Secondary = {
-  args: {
-    label: 'Button',
-  },
-};
-
-export const Large = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small = {
-  args: {
-    size: 'small',
-    label: 'Button',
-  },
-};
-
-export const Pito = {
-  args: {
-    size: 'small',
-    label: 'Pito',
-  },
-};

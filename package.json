@@ -1,25 +1,24 @@
 {
-  "name": "web-docs",
+  "name": "react-word",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
-  "private": true,
   "license": "MIT",
   "scripts": {
     "start": "node demo/index.js",
     "co": "sui-mono commit",
-    "storybook": "storybook dev -p 6006",
+    "sb": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build": "rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/self-david/web-docs"
+    "url": "https://github.com/self-david/react-word"
   },
   "peerDependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "16.8.0",
+    "react-dom": "16.8.0"
   },
   "dependencies": {
   },
