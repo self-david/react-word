@@ -1,7 +1,3 @@
-import Document from './components/Document/Index.jsx'
-import { Button } from './components/Button/Index.jsx'
+import Document from './components/Index.jsx'
 
-export {
-  Document,
-  Button
-}
+export { Document }
