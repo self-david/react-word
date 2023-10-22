@@ -18,16 +18,22 @@ const paragraphs = [
 const initialValue = [
   {
     type: 'section',
-    children: [
-      {
-        type: 'column',
-        children: paragraphs,
-      },
-    ],
+    children: [{ type: 'column', children: paragraphs }],
   },
 ]
 
 export const documentPropTypes = {
+  children: PropTypes.node,
+  initialValue: PropTypes.array,
+  onCallback: PropTypes.func,
+}
+
+export const documentDefaultProps = {
+  initialValue,
+  onCallback: () => {},
+}
+
+export const sheetPropTypes = {
   className: PropTypes.string,
   placeholder: PropTypes.string,
   spellCheck: PropTypes.bool,
@@ -35,9 +41,17 @@ export const documentPropTypes = {
   initialValue: PropTypes.array,
 }
 
-export const documentDefaultProps = {
-  initialValue,
-  placeholder: 'Enter some rich text…',
+export const sheetDefaultProps = {
+  placeholder: 'Enter some text…',
   spellCheck: false,
   autoFocus: true,
+  initialValue,
+}
+
+export const DownloadProps = {
+  fileName: PropTypes.string,
+}
+
+export const DownloadDefaultProps = {
+  fileName: 'demo',
 }

@@ -1,3 +1,31 @@
 [data-slate-placeholder] {
   top: auto !important;
 }
+
+.toolbar {
+  display: flex;
+  gap: 6px;
+  border: 1px solid #E6E6E6;
+  background-color: #FAFBFC;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.css-k9al3h {
+  color: #344563;
+}
+
+
+.tool-active, .tool-inactive {
+  cursor: pointer;
+}
+
+:not(pre) > code {
+  font-family: monospace;
+  background-color: #eee;
+  padding: 3px;
+}
+
+.sheet {
+  width: 100%;
+}

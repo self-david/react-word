@@ -27,6 +27,9 @@ const Leaf = props => {
   if (font.strike) {
     children = <s>{children}</s>
   }
+  if (leaf.code) {
+    children = <code>{children}</code>
+  }
   if (font.superscript) {
     children = <sup>{children}</sup>
   }

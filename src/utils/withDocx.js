@@ -1,6 +1,7 @@
 import { Document } from 'docxyz'
 import { docxContext } from './docxContext'
 import { toEditorData, saveDocx } from './trans'
+import { Buffer } from 'buffer'
 
 const withDocx = editor => {
   editor.docxContext = docxContext

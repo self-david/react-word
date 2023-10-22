@@ -118,7 +118,7 @@ class Section {
     const style = {
       borderWidth: '1px',
       borderStyle: 'solid',
-      borderColor: 'darkgray',
+      borderColor: 'e',
       backgroundColor: 'white',
       paddingLeft: '90pt',
       paddingRight: '90pt',

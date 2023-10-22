@@ -38,7 +38,7 @@ const Column = ({ attributes, children, element }) => {
       marginRight: `${element.space}pt`,
     }
     return (
-      <div style={styleObj} {...attributes}>
+      <div className='sheet' style={styleObj} {...attributes}>
         {children}
       </div>
     )
