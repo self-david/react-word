@@ -1,3 +1,4 @@
+import React from 'react'
 import {
   Bold,
   Italic,
@@ -17,7 +18,7 @@ import {
   Download,
   Upload,
   Print,
-} from './ElementTools'
+} from './ElementTools.jsx'
 import { cx } from '@emotion/css'
 
 function Tools({ children, className, ...rest }) {
@@ -27,8 +28,6 @@ function Tools({ children, className, ...rest }) {
     </div>
   )
 }
-
-// Tools.Lists = 'Lists'
 
 Tools.Bold = Bold
 Tools.Italic = Italic

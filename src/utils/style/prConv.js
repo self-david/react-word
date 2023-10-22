@@ -1,13 +1,6 @@
 /* eslint-disable camelcase */
 import { shared, enums } from 'docxyz'
-import {
-  AlignmentConv,
-  RunBorderConv,
-  PBordersConv,
-  IndentSpacingConv,
-  LineSpacingConv,
-  ShdConv,
-} from './prAttrConvs.js'
+import { AlignmentConv, RunBorderConv, PBordersConv, IndentSpacingConv, LineSpacingConv, ShdConv } from './prAttrConvs'
 import { ST_HexColorAuto } from 'docxyz/src/oxml/simpletypes'
 
 class PrConv {

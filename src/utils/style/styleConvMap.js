@@ -1,5 +1,5 @@
 import { FontConv, FormatConv } from './styleConv'
-import { TableStyleConv } from './tblStyleConv'
+import { TableStyleConv } from './tblStyleConv.jsx'
 
 class StyleConvMap {
   constructor(styleMap) {

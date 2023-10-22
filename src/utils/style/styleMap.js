@@ -1,6 +1,6 @@
 import { css } from '@emotion/css'
 import { FontConv, FormatConv } from './styleConv'
-import { TableStyleConv } from './tblStyleConv'
+import { TableStyleConv } from './tblStyleConv.jsx'
 import { FormatConvMap, FontConvMap, TableStyleConvMap } from './styleConvMap'
 
 class StyleMap {

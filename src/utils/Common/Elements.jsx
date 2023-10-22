@@ -1,7 +1,8 @@
+import React from 'react'
 import { useSlate } from 'slate-react'
 import { FormatConv } from '../style/styleConv'
-import { Table, Row, Cell } from './Table'
-import { Section, Column } from './Section'
+import { Table, Row, Cell } from './Table.jsx'
+import { Section, Column } from './Section.jsx'
 
 const Elements = props => {
   const { attributes, children, element } = props

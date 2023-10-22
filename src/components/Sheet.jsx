@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react'
 import { Editable } from 'slate-react'
-import Elements from '../utils/Common/Elements'
-import Leaf from '../utils/Common/Leaf'
-import { sheetPropTypes, sheetDefaultProps } from './PropTypes'
+import Elements from '../utils/Common/Elements.jsx'
+import Leaf from '../utils/Common/Leaf.jsx'
+import { sheetPropTypes, sheetDefaultProps } from './PropTypes.js'
 import '../style.css'
 
 const Sheet = ({ className, placeholder, spellCheck, autoFocus, initialValue, ...rest }) => {

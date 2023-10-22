@@ -3,7 +3,7 @@ import { text, table } from 'docxyz'
 import { elementTypes } from './types'
 import { ParagraphTrans } from './textTrans'
 import { ST_Merge } from 'docxyz/src/oxml/simpletypes'
-import { TblPrConv, TblGridConv, TrStyleConv, TcStyleConv, TblStyleConv } from './style/tblStyleConv'
+import { TblPrConv, TblGridConv, TrStyleConv, TcStyleConv, TblStyleConv } from './style/tblStyleConv.jsx'
 
 class CellTrans {
   static from(cell, options) {
